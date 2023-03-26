@@ -308,11 +308,16 @@ input:checked + .slider:before {
 }
 
 @media screen and (min-width: 1000px) {
-    .project-menu {
-        height: 100vh;
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    .container, .project-menu {
+        padding-bottom: 0;
     }
 
     .project-menu {
+        height: 100vh;
         flex-direction: row;
         justify-content: space-evenly;
         min-width: 90vw;
