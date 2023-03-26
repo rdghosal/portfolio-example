@@ -18,6 +18,10 @@ body {
     position: relative;
 }
 
+html, body {
+    height: 100%;
+}
+
 p {
     text-align: center;
 }
@@ -31,12 +35,6 @@ a.current {
     /* border-bottom: 3px solid white; */
     color: #9593FF;
 }
-
-embed {
-    height: 1000px;
-    width: 800px;
-}
-
 
 .container {
     padding: 0 1.5rem 0 1.5rem;
@@ -82,16 +80,16 @@ embed {
 }
 
 .landing {
-    /* Subtract navbar and light/dark switch heights */
-    min-height: calc(100vh - 80px - 34px);
+    min-height: calc(100vh - 80px - 3rem);
     position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .landing-contents {
     position: absolute;
     display: flex;
-    top: 10%;
+    top: calc(10% - 3rem);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -178,7 +176,6 @@ input:checked + .slider:before {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 75px;
 }
 
 .project-menu {
