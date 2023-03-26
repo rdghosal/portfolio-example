@@ -48,7 +48,6 @@ a.current {
     z-index: 100;
     display: flex;
     align-items: center;
-    margin-bottom: 3rem;
 }
 
 .nav-links {
@@ -75,7 +74,7 @@ a.current {
 .description {
     font-size: 2rem;
     padding: 0.rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
@@ -84,6 +83,7 @@ a.current {
     position: relative;
     width: 100%;
     height: 100%;
+    margin-bottom: 3rem;
 }
 
 .landing-contents {
@@ -176,6 +176,7 @@ input:checked + .slider:before {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 5rem;
 }
 
 .project-menu {
