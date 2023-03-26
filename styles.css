@@ -82,7 +82,8 @@ embed {
 }
 
 .landing {
-    min-height: calc(100vh - 80px);
+    /* Subtract navbar and light/dark switch heights */
+    min-height: calc(100vh - 80px - 34px);
     position: relative;
     width: 100%;
 }
