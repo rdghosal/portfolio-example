@@ -48,6 +48,7 @@ a.current {
     z-index: 100;
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .nav-links {
@@ -109,7 +110,7 @@ a.current {
 .mode-switch {
   position: fixed;
   display: inline-block;
-  top: 90vh;
+  top: 90%;
   left: 80vw;
   width: 60px;
   height: 34px;
@@ -147,12 +148,12 @@ a.current {
 }
 
 input + .slider {
-  box-shadow: -5px 0 0 2px #222;
+  box-shadow: -5px 0 5px 0.5px #222;
   background-color: #CCC;
 }
 
 input:checked + .slider {
-  box-shadow: 5px 0 0 2px #FFF;
+  box-shadow: 4.5px 0 10px 0px #FFF;
   background-color: #222;
 }
 
@@ -199,8 +200,8 @@ input:checked + .slider:before {
 }
 
 .profile-pic, .project__img {
-    height: 400px;
-    margin-bottom: 5rem;
+    height: 300px;
+    margin-bottom: 3rem;
 }
 
 .resume__img {
