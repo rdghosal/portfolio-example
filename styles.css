@@ -18,6 +18,12 @@ body {
     position: relative;
 }
 
+.light {
+    background-color: #FFFFFF;
+    color: #222222;
+    border-color: black !important;
+}
+
 html, body {
     height: 100%;
 }
@@ -33,7 +39,7 @@ a {
 
 a.current {
     /* border-bottom: 3px solid white; */
-    color: #9593FF;
+    color: #9593FF !important;
 }
 
 .container {
