@@ -16,6 +16,7 @@ body {
     color: #FFFFFF;
     font-family: "IBM Plex Serif", serif;
     position: relative;
+    overflow-x: hidden;
 }
 
 .light {
